@@ -1,4 +1,4 @@
-cwlVersion: v1.0
+cwlVersion: v1.2
 class: CommandLineTool
 baseCommand: msfragger
 label: msfragger
@@ -16,6 +16,13 @@ arguments:
   - valueFrom: "-Pcomet.params"
     position: 1
     shellQuote: false
+
+$namespaces:
+  edam: http://edamontology.org/
+
+intent:
+  - http://edamontology.org/operation_2421  # Database search
+  - http://edamontology.org/operation_3801  # Spectral library search
   
 inputs:
   Params:
@@ -25,13 +32,15 @@ inputs:
       location: https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/msfragger/fragger.params
   MSFragger_in_1:
     type: File
-    format: "http://edamontology.org/format_3244" # mzML
+    format: edam:format_3244  # mzML
+    edam:data_0006: edam:data_0943  # Mass spectrum
     inputBinding:
       position: 3
       valueFrom: $(self.basename)
   MSFragger_in_2:
     type: File
-    format: "http://edamontology.org/format_1929" # FASTA
+    format: edam:format_1929  # FASTA
+    edam:data_0006: edam:data_2976  # Protein sequence
     inputBinding:
       position: 2
       prefix: -D
@@ -42,7 +51,8 @@ inputs:
 outputs:
     MSFragger_out_1: 
       type: File
-      format: "http://edamontology.org/format_3655" # pepXML
+      format: edam:format_3655  # pepXML
+      edam:data_0006: edam:data_0945  # Peptide identification
       outputBinding:
         glob: "*.mzid"
 
