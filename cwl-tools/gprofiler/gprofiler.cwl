@@ -35,6 +35,6 @@ outputs:
     type: File
     doc: "Output file containing the result of the curl command"
     format: "http://edamontology.org/format_3464"  # JSON
-    edam:data_0006: edam:data_3754  # GO-term enrichment data
+    edam:data_0006: edam:data_3753  # Over-representation data
     outputBinding:
       glob: "output.json"
