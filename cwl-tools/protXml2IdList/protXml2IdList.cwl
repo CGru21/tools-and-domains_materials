@@ -3,6 +3,7 @@
 cwlVersion: v1.0
 class: CommandLineTool
 baseCommand: ["xmllint", "--xpath",  "//*[local-name()='protein']/@protein_name"]
+label: protXml2IdList
 requirements:
   ShellCommandRequirement: {}
   DockerRequirement:

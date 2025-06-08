@@ -3,6 +3,7 @@
 cwlVersion: v1.2
 class: CommandLineTool
 baseCommand: ["xmllint", "--xpath",  "//*[local-name()='search_hit'][@hit_rank = '\"1\"']/@protein_descr"]
+label: pepXml2ProteinNameList
 
 requirements:
   ShellCommandRequirement: {}

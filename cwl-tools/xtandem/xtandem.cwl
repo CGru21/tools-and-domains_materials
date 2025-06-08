@@ -2,7 +2,7 @@
 
 cwlVersion: v1.2
 class: CommandLineTool
-label: XTandem.cwl
+label: XTandem
 baseCommand: ["mkdir", "-p", "/tmp/xtandem"]
 requirements:
   ShellCommandRequirement: {}
