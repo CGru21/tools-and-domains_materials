@@ -19,13 +19,12 @@ $namespaces:
   edam: http://edamontology.org/
 
 intent:
-  - http://edamontology.org/operation_3434
-  - http://edamontology.org/operation_0335
+  - http://edamontology.org/operation_3434  # Conversion
 
 inputs:
   pepXml2ProteinNameList_in_1:
     type: File
-    format: "http://edamontology.org/format_3747"  # protXML
+    format: "http://edamontology.org/format_3655"  # pepXML
     edam:data_0006: edam:data_0945  # Peptide identification
     inputBinding:
       position: 1
@@ -34,7 +33,7 @@ outputs:
   pepXml2ProteinNameList_out_1:
     type: File
     format: "http://edamontology.org/format_2330"  # Textual format
-    edam:data_0006: edam:data_2872  # ID list
+    edam:data_0006: edam:data_1009  # Protein name
     outputBinding:
       glob: "output_pepXml2ProteinNameList.txt"
 

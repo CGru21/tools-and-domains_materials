@@ -2,84 +2,43 @@
   "functions": [
     {
       "type": "CWL_ANNOTATION",
-      "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/comet/comet.cwl"
-      },
-      "biotoolsID": "comet",
-      "label": "Comet",
-      "id": "Comet"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/comet/comet.cwl"
     },
     {
       "type": "CWL_ANNOTATION",
-      "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/peptideprophet/peptideprophet.cwl"
-      },
-      "biotoolsID": "peptideprophet",
-      "label": "PeptideProphet",
-      "id": "PeptideProphet"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/peptideprophet/peptideprophet.cwl"
     },
     {
       "type": "CWL_ANNOTATION",
-      "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/proteinprophet/proteinprophet.cwl"
-      },
-      "biotoolsID": "proteinprophet",
-      "label": "ProteinProphet",
-      "id": "ProteinProphet"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/proteinprophet/proteinprophet.cwl"
     },
     {
       "type": "CWL_ANNOTATION",
-      "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/gprofiler/gprofiler.cwl"
-      },
-      "biotoolsID": "gprofiler",
-      "label": "gProfiler",
-      "id": "gProfiler"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/gprofiler/gprofiler.cwl"
     },
     {
       "type": "CWL_ANNOTATION",
-      "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/xtandem/xtandem.cwl"
-      },
-      "biotoolsID": "xtandem",
-      "label": "XTandem",
-      "id": "XTandem"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/xtandem/xtandem.cwl"
     },
     {
       "type": "CWL_ANNOTATION",
-      "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/protXml2IdList/protXml2IdList.cwl"
-      },
-      "biotoolsID": "",
-      "label": "protXml2IdList",
-      "id": "protXml2IdList"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/protXml2IdList/protXml2IdList.cwl"
     },
     {
       "type": "CWL_ANNOTATION",
-      "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/ms_amanda/ms_amanda.cwl"
-      },
-      "biotoolsID": "ms_amanda",
-      "label": "MS_Amanda",
-      "id": "MS_Amanda"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/ms_amanda/ms_amanda.cwl"
     },
     {
       "type": "CWL_ANNOTATION",
-      "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/msfragger/msfragger.cwl"
-      },
-      "biotoolsID": "msfragger",
-      "label": "MSFragger",
-      "id": "MSFragger"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/msfragger/msfragger.cwl"
     },
     {
       "type": "CWL_ANNOTATION",
-      "implementation": {
-        "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/Sage-proteomics/Sage-proteomics.cwl"
-      },
-      "biotoolsID": "Sage-proteomics",
-      "label": "Sage",
-      "id": "Sage-proteomics"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/Sage-proteomics/Sage-proteomics.cwl"
+    },
+    {
+      "type": "CWL_ANNOTATION",
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/pepXML2ProteinNameList/pepXml2ProteinNameList.cwl"
     }
   ]
 }
