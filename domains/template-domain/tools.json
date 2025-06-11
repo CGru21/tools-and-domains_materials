@@ -2,31 +2,23 @@
   "functions": [
     {
       "type": "CWL_ANNOTATION",
-      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/comet/comet.cwl"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/YOUR-BRANCH-NAME/cwl-tools/comet/comet.cwl"
     },
     {
       "type": "CWL_ANNOTATION",
-      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/peptideprophet/peptideprophet.cwl"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/YOUR-BRANCH-NAME/cwl-tools/peptideprophet/peptideprophet.cwl"
     },
     {
       "type": "CWL_ANNOTATION",
-      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/proteinprophet/proteinprophet.cwl"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/YOUR-BRANCH-NAME/cwl-tools/proteinprophet/proteinprophet.cwl"
     },
     {
       "type": "CWL_ANNOTATION",
-      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/gprofiler/gprofiler.cwl"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/YOUR-BRANCH-NAME/cwl-tools/gprofiler/gprofiler.cwl"
     },
     {
       "type": "CWL_ANNOTATION",
-      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/xtandem/xtandem.cwl"
-    },
-    {
-      "type": "CWL_ANNOTATION",
-      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/protXml2IdList/protXml2IdList.cwl"
-    },
-    {
-      "type": "CWL_ANNOTATION",
-      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/main/cwl-tools/msfragger/msfragger.cwl"
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/YOUR-BRANCH-NAME/cwl-tools/protXml2IdList/protXml2IdList.cwl"
     }
   ]
 }
