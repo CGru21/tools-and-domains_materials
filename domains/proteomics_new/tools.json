@@ -30,15 +30,15 @@
     },
     {
       "type": "CWL_ANNOTATION",
-      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/new_ape_annotations/cwl-tools/msfragger/msfragger.cwl"
-    },
-    {
-      "type": "CWL_ANNOTATION",
       "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/new_ape_annotations/cwl-tools/Sage-proteomics/Sage-proteomics.cwl"
     },
     {
       "type": "CWL_ANNOTATION",
       "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/new_ape_annotations/cwl-tools/pepXml2ProteinNameList/pepXml2ProteinNameList.cwl"
-    }
+    },
+    {
+    "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/new_ape_annotations/cwl-tools/msfragger/msfragger.cwl",
+    "type": "CWL_ANNOTATION"
+}
   ]
 }
