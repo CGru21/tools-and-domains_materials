@@ -1,7 +1,7 @@
 cwlVersion: v1.2
 class: CommandLineTool
 baseCommand: comet
-label: comet-ms
+label: comet
 requirements:
   ShellCommandRequirement: {}
   InitialWorkDirRequirement:

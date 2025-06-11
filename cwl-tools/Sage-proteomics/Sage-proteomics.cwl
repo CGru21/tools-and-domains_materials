@@ -1,5 +1,5 @@
 cwlVersion: v1.2
-label: Sage
+label: Sage-proteomics
 class: CommandLineTool
 baseCommand: ["/bin/bash", "-c"]
 arguments:
