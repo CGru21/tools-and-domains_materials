@@ -44,21 +44,12 @@ inputs:
   Settings:
     type: string
     default: /msamanda/settings.xml
-    inputBinding:
-      position: 3
-      prefix: -e
   FileFormat:
     type: int
     default: 2  # .mzid=2, .csv=1
-    inputBinding:
-      position: 4
-      prefix: -f
   OutputFile:
     type: string
     default: "/data/output"
-    inputBinding:
-      position: 5
-      prefix: -o
 
 outputs:
   MS_Amanda_out_1:
