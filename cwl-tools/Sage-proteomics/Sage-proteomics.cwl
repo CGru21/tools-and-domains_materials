@@ -4,8 +4,8 @@ class: CommandLineTool
 baseCommand: ["/bin/bash", "-c"]
 arguments:
   - valueFrom: >
-      "sage -o /data/output -f $(inputs.Sage_in_2.path) \
-      $(inputs.Configuration.path) $(inputs.Sage_in_1.path) && \
+      "sage -o /data/output -f $(inputs.Sage_in_2.path)
+      $(inputs.Configuration.path) $(inputs.Sage_in_1.path) &&
       /data/sage_TSV_to_mzIdentML.sh /data/output/results.sage.tsv"
     shellQuote: false
 requirements:
