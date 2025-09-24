@@ -1,8 +1,9 @@
 #!/usr/bin/env cwl-runner
 
-cwlVersion: v1.0
+cwlVersion: v1.2
 class: CommandLineTool
 baseCommand: ["xmllint", "--xpath",  "//*[local-name()='search_hit'][@hit_rank = '\"1\"']/@protein_descr"]
+label: pepXml2ProteinNameList
 
 requirements:
   ShellCommandRequirement: {}
@@ -14,17 +15,25 @@ arguments:
   position: 2
   shellQuote: false
 
+$namespaces:
+  edam: http://edamontology.org/
+
+intent:
+  - http://edamontology.org/operation_3434  # Conversion
+
 inputs:
   pepXml2ProteinNameList_in_1:
     type: File
-    format: "http://edamontology.org/format_3655" # protXML
+    format: "http://edamontology.org/format_3655"  # pepXML
+    edam:data_0006: edam:data_0945  # Peptide identification
     inputBinding:
       position: 1
 
 outputs:
   pepXml2ProteinNameList_out_1:
     type: File
-    format: "http://edamontology.org/format_2330" # Textual format
+    format: "http://edamontology.org/format_2330"  # Textual format
+    edam:data_0006: edam:data_1009  # Protein name
     outputBinding:
       glob: "output_pepXml2ProteinNameList.txt"
 

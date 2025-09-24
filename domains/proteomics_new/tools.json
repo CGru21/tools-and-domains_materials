@@ -1,0 +1,40 @@
+{
+  "functions": [
+    {
+      "type": "CWL_ANNOTATION",
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/new_ape_annotations/cwl-tools/comet/comet.cwl"
+    },
+    {
+      "type": "CWL_ANNOTATION",
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/new_ape_annotations/cwl-tools/peptideprophet/peptideprophet.cwl"
+    },
+    {
+      "type": "CWL_ANNOTATION",
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/new_ape_annotations/cwl-tools/proteinprophet/proteinprophet.cwl"
+    },
+    {
+      "type": "CWL_ANNOTATION",
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/new_ape_annotations/cwl-tools/gprofiler/gprofiler.cwl"
+    },
+    {
+      "type": "CWL_ANNOTATION",
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/new_ape_annotations/cwl-tools/xtandem/xtandem.cwl"
+    },
+    {
+      "type": "CWL_ANNOTATION",
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/new_ape_annotations/cwl-tools/protXml2IdList/protXml2IdList.cwl"
+    },
+    {
+      "type": "CWL_ANNOTATION",
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/new_ape_annotations/cwl-tools/ms_amanda/ms_amanda.cwl"
+    },
+    {
+      "type": "CWL_ANNOTATION",
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/new_ape_annotations/cwl-tools/Sage-proteomics/Sage-proteomics.cwl"
+    },
+    {
+      "type": "CWL_ANNOTATION",
+      "cwl_reference": "https://raw.githubusercontent.com/Workflomics/tools-and-domains/refs/heads/new_ape_annotations/cwl-tools/pepXml2ProteinNameList/pepXml2ProteinNameList.cwl"
+    }
+  ]
+}

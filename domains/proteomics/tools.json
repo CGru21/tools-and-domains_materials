@@ -1,6 +1,7 @@
 {
   "functions": [
     {
+      "type" : "APE_ANNOTATION",
       "outputs": [
         {
           "format_1915": ["http://edamontology.org/format_3655"],
@@ -39,6 +40,7 @@
       "id": "Comet"
     },
     {
+      "type" : "APE_ANNOTATION",
       "outputs": [
         {
           "format_1915": ["http://edamontology.org/format_3655"],
@@ -78,6 +80,7 @@
       "id": "PeptideProphet"
     },
     {
+      "type" : "APE_ANNOTATION",
       "outputs": [
         {
           "format_1915": ["http://edamontology.org/format_3747"],
@@ -114,6 +117,7 @@
       "id": "ProteinProphet"
     },
     {
+      "type" : "APE_ANNOTATION",
       "outputs": [
         {
           "format_1915": ["http://edamontology.org/format_3747"],
@@ -149,6 +153,7 @@
       "id": "StPeter"
     },
     {
+      "type" : "APE_ANNOTATION",
       "outputs": [
         {
           "format_1915": ["http://edamontology.org/format_3244"],
@@ -175,6 +180,7 @@
       "id": "mzrecal1"
     },
     {
+      "type" : "APE_ANNOTATION",
       "outputs": [
         {
           "format_1915": ["http://edamontology.org/format_3655"],
@@ -201,6 +207,7 @@
       "id": "idconvert_to_pepXML"
     },
     {
+      "type" : "APE_ANNOTATION",
       "outputs": [
         {
           "format_1915": ["http://edamontology.org/format_3247"],
@@ -227,6 +234,7 @@
       "id": "idconvert_to_mzIdentML"
     },
     {
+      "type" : "APE_ANNOTATION",
       "outputs": [
         {
           "format_1915": [
@@ -263,6 +271,7 @@
       "id": "GOEnrichment"
     },
     {
+      "type" : "APE_ANNOTATION",
       "outputs": [
         {
           "format_1915": ["http://edamontology.org/format_3464"],
@@ -294,6 +303,7 @@
       "id": "gProfiler"
     },
     {
+      "type" : "APE_ANNOTATION",
       "outputs": [
         {
           "format_1915": ["http://edamontology.org/format_3655"],
@@ -334,6 +344,7 @@
       "id": "XTandem"
     },
     {
+      "type" : "APE_ANNOTATION",
       "outputs": [
         {
           "format_1915": ["http://edamontology.org/format_2330"],
@@ -359,6 +370,7 @@
       "id": "protXml2IdList"
     },
     {
+      "type" : "APE_ANNOTATION",
       "outputs": [
         {
           "format_1915": ["http://edamontology.org/format_3247"],
@@ -394,6 +406,7 @@
       "id": "MS_Amanda"
     },
     {
+      "type" : "APE_ANNOTATION",
       "outputs": [
         {
           "format_1915": ["http://edamontology.org/format_3655"],
@@ -427,6 +440,7 @@
       "id": "MSFragger"
     },
     {
+      "type" : "APE_ANNOTATION",
       "outputs": [
         {
           "format_1915": ["http://edamontology.org/format_3247"],
@@ -456,6 +470,7 @@
       "id": "Sage-proteomics"
     },
     {
+      "type" : "APE_ANNOTATION",
       "outputs": [{
           "format_1915": ["http://edamontology.org/format_3603"],
           "data_0006": ["http://edamontology.org/data_2968"]
@@ -473,7 +488,8 @@
       "id": "wcloud"
     },
     {
-        "outputs": [{
+        "type" : "APE_ANNOTATION",
+      "outputs": [{
             "format_1915": ["http://edamontology.org/format_3603"],
             "data_0006": ["http://edamontology.org/data_2968"]
         }],
@@ -490,7 +506,8 @@
         "id": "word_cloud"
       },
       {
-        "outputs": [
+        "type" : "APE_ANNOTATION",
+      "outputs": [
           {
             "format_1915": ["http://edamontology.org/format_2330"],
             "data_0006": ["http://edamontology.org/data_1009"]

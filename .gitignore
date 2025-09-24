@@ -162,3 +162,4 @@ domains/proteomics/UseCases-Demo/*
 examples/cwl-workflows/example*/workflow_*_output/
 examples/cwl-workflows/example*/benchmarks.json
 **/test/output/
+APE-*
