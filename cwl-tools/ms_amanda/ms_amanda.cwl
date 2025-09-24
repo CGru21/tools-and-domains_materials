@@ -4,11 +4,11 @@ class: CommandLineTool
 baseCommand: ["/bin/bash", "-c"]
 arguments:
   - valueFrom: >
-      "/msamanda/MSAmanda -s $(inputs.MS_Amanda_in_1.path) \
-      -d $(inputs.MS_Amanda_in_2.path) \
-      -e $(inputs.Settings) \
-      -f $(inputs.FileFormat) \
-      -o $(inputs.OutputFile) && \
+      "/msamanda/MSAmanda -s $(inputs.MS_Amanda_in_1.path)
+      -d $(inputs.MS_Amanda_in_2.path) 
+      -e $(inputs.Settings) 
+      -f $(inputs.FileFormat) 
+      -o $(inputs.OutputFile) &&
       gunzip output.mzid.gz"
     shellQuote: false
 requirements:

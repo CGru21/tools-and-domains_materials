@@ -19,9 +19,10 @@ requirements:
       - entryname: fastaFile.fasta
         entry: $(inputs.XTandem_in_2)
 arguments:
-    - valueFrom:    "&& cp tandem.params taxonomy.xml mzmlFile.mzML fastaFile.fasta /tmp/xtandem && \
-                    tandem /tmp/xtandem/tandem.params && \
-                    Tandem2XML /tmp/xtandem/tandemFile.tandem > mzmlFile.pep.xml"
+    - valueFrom: >
+        && cp tandem.params taxonomy.xml mzmlFile.mzML fastaFile.fasta /tmp/xtandem &&
+        tandem /tmp/xtandem/tandem.params &&
+        Tandem2XML /tmp/xtandem/tandemFile.tandem > mzmlFile.pep.xml
       position: 1
       shellQuote: false
 
