@@ -20,8 +20,8 @@
   "number_of_generated_graphs": "10",
   "number_of_cwl_files": "10",
   "tool_seq_repeat": "true",
-  "inputs": [],
-  "outputs": [],
+  "inputs": [{ "Type": ["Element"], "Format": ["String"] }],
+  "outputs": [{ "Type": ["VacancyFormationEnergy"], "Format": ["Float"]}],
   "debug_mode": "true",
   "use_workflow_input": "all",
   "use_all_generated_data": "one"
